@@ -4,29 +4,46 @@
     <meta charset="UTF-8">
     <title>fLayout</title>
     <style>
-        nav{
+        nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        h1{
+
+        h1 {
             font-size: xxx-large;
         }
-        nav div{
+
+        nav div {
             width: 50%;
         }
-        nav div ul{
+
+        nav div ul {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
         }
-        main div h1{
+
+        main div h1 {
             text-align: center;
             padding: 50px;
         }
-        .darkkhaki{
-            background-color: darkkhaki;
 
+        .darkkhaki {
+            background-color: darkkhaki;
+        }
+        .article-image{
+            width: 200px;
+            height: 200px;
+        }
+        .article-display{
+            display: flex;
+            align-items: center;
+            margin: 30px;
+        }
+        .article-par{
+            width: 50%;
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -56,6 +73,34 @@
     <div class="darkkhaki">
         <h1>THIS IS THE MAIN CONTENT OF THE F LAYOUT</h1>
     </div>
+    <article>
+        <div class="article-display">
+            <img class= "article-image" src="images/contentimg1.jpg" alt="content1">
+            <p class="article-par">Where does it come from?
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem Ipsum passage, and going through the cites of the word in classical
+            </p>
+        </div>
+        <div class="article-display">
+            <img class="article-image" src="images/contentimg2.png" alt="content2">
+            <p class="article-par">Where does it come from?
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem Ipsum passage, and going through the cites of the word in classical
+            </p>
+        </div>
+        <div class="article-display">
+            <img class="article-image" src="images/googleimg.jpg" alt="google">
+            <p class="article-par">Where does it come from?
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem Ipsum passage, and going through the cites of the word in classical</p>
+        </div>
+    </article>
 </main>
 
 
